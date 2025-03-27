@@ -13,7 +13,7 @@
   ```
 * Adjust the coordinates based on the needs
 ```
-    int backgroundWidthMM = 105;
+            int backgroundWidthMM = 105;
             int backgroundHeightMM = 148;
             int imageWidthMM = 115;
             int imageHeightMM = 66;
