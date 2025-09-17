@@ -66,15 +66,15 @@ public class ImageSuperimposer {
         try {
 
             // --- Configuration ---
-            int backgroundWidthMM = 105;
-            int backgroundHeightMM = 148;
-            int imageWidthMM = 115;
-            int imageHeightMM = 66;
-            int xCoordinateMM = -12;
-            int yCoordinateMM = 40;
+            int backgroundWidthMM = 65;
+            int backgroundHeightMM = 128;
+            int imageWidthMM = 48;
+            int imageHeightMM = 42;
+            int xCoordinateMM = 11;
+            int yCoordinateMM = 21;
 
             // --- Conversion from mm to pixels (assuming 72 DPI) ---
-            double mmToPixels = 522.0 / 25.4;
+            double mmToPixels = 422.0 / 25.4;
             int backgroundWidthPixels = (int) Math.round(backgroundWidthMM * mmToPixels);
             int backgroundHeightPixels = (int) Math.round(backgroundHeightMM * mmToPixels);
             int imageWidthPixels = (int) Math.round(imageWidthMM * mmToPixels);
